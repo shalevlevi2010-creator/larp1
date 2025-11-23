@@ -10,7 +10,7 @@ export default function handler(req, res) {
     tokens[token] = expire;
 
     res.writeHead(302, {
-        Location: `https://chat.whatsapp.com/I5gl9o1oPTUKTowihWFZOW?token=${token}`
+        Location: `https://chat.whatsapp.com/BYUNceqDwJoLI254veoM6c?token=${token}`
     });
     res.end();
 }
